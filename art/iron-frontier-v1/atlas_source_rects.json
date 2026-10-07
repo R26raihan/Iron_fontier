@@ -1,0 +1,3629 @@
+{
+  "project": "IRON FRONTIER",
+  "status": "draft_source_rectangles_not_runtime_tested",
+  "coordinateSystem": "top-left pixels",
+  "assets": [
+    {
+      "id": "player_core",
+      "file": "characters/player_core.png",
+      "rows": [
+        {
+          "name": "idle",
+          "fpsSuggestion": 8,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 71,
+                "y": 38,
+                "width": 219,
+                "height": 249
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 319,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 395,
+                "y": 37,
+                "width": 215,
+                "height": 251
+              },
+              "partition": {
+                "x": 319,
+                "y": 0,
+                "width": 320,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 713,
+                "y": 37,
+                "width": 220,
+                "height": 251
+              },
+              "partition": {
+                "x": 639,
+                "y": 0,
+                "width": 319,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1033,
+                "y": 42,
+                "width": 226,
+                "height": 245
+              },
+              "partition": {
+                "x": 958,
+                "y": 0,
+                "width": 320,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "run",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 44,
+                "y": 343,
+                "width": 270,
+                "height": 247
+              },
+              "partition": {
+                "x": 0,
+                "y": 307,
+                "width": 319,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 378,
+                "y": 345,
+                "width": 258,
+                "height": 245
+              },
+              "partition": {
+                "x": 319,
+                "y": 307,
+                "width": 320,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 682,
+                "y": 345,
+                "width": 280,
+                "height": 245
+              },
+              "partition": {
+                "x": 639,
+                "y": 307,
+                "width": 323,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1059,
+                "y": 343,
+                "width": 212,
+                "height": 247
+              },
+              "partition": {
+                "x": 962,
+                "y": 307,
+                "width": 316,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "jump",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 99,
+                "y": 686,
+                "width": 215,
+                "height": 214
+              },
+              "partition": {
+                "x": 0,
+                "y": 615,
+                "width": 319,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 381,
+                "y": 642,
+                "width": 252,
+                "height": 258
+              },
+              "partition": {
+                "x": 319,
+                "y": 615,
+                "width": 320,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 749,
+                "y": 630,
+                "width": 213,
+                "height": 210
+              },
+              "partition": {
+                "x": 639,
+                "y": 615,
+                "width": 323,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1049,
+                "y": 658,
+                "width": 209,
+                "height": 246
+              },
+              "partition": {
+                "x": 962,
+                "y": 615,
+                "width": 316,
+                "height": 307
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "shoot",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 44,
+                "y": 951,
+                "width": 261,
+                "height": 245
+              },
+              "partition": {
+                "x": 0,
+                "y": 922,
+                "width": 319,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 355,
+                "y": 951,
+                "width": 265,
+                "height": 245
+              },
+              "partition": {
+                "x": 319,
+                "y": 922,
+                "width": 320,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 671,
+                "y": 952,
+                "width": 273,
+                "height": 244
+              },
+              "partition": {
+                "x": 639,
+                "y": 922,
+                "width": 317,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 957,
+                "y": 952,
+                "width": 286,
+                "height": 244
+              },
+              "partition": {
+                "x": 956,
+                "y": 922,
+                "width": 322,
+                "height": 308
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "player_combat",
+      "file": "characters/player_combat.png",
+      "rows": [
+        {
+          "name": "run_shoot",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 30,
+                "y": 49,
+                "width": 319,
+                "height": 225
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 350,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 353,
+                "y": 48,
+                "width": 347,
+                "height": 226
+              },
+              "partition": {
+                "x": 350,
+                "y": 0,
+                "width": 350,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 701,
+                "y": 49,
+                "width": 352,
+                "height": 225
+              },
+              "partition": {
+                "x": 700,
+                "y": 0,
+                "width": 353,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1054,
+                "y": 48,
+                "width": 346,
+                "height": 227
+              },
+              "partition": {
+                "x": 1053,
+                "y": 0,
+                "width": 349,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "land",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 97,
+                "y": 305,
+                "width": 197,
+                "height": 222
+              },
+              "partition": {
+                "x": 0,
+                "y": 280,
+                "width": 350,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 393,
+                "y": 376,
+                "width": 266,
+                "height": 169
+              },
+              "partition": {
+                "x": 350,
+                "y": 280,
+                "width": 351,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 764,
+                "y": 353,
+                "width": 244,
+                "height": 195
+              },
+              "partition": {
+                "x": 701,
+                "y": 280,
+                "width": 350,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1137,
+                "y": 323,
+                "width": 215,
+                "height": 231
+              },
+              "partition": {
+                "x": 1051,
+                "y": 280,
+                "width": 351,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "hurt",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 80,
+                "y": 588,
+                "width": 218,
+                "height": 240
+              },
+              "partition": {
+                "x": 0,
+                "y": 561,
+                "width": 350,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 394,
+                "y": 578,
+                "width": 236,
+                "height": 251
+              },
+              "partition": {
+                "x": 350,
+                "y": 561,
+                "width": 351,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 771,
+                "y": 622,
+                "width": 181,
+                "height": 207
+              },
+              "partition": {
+                "x": 701,
+                "y": 561,
+                "width": 350,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1132,
+                "y": 596,
+                "width": 220,
+                "height": 233
+              },
+              "partition": {
+                "x": 1051,
+                "y": 561,
+                "width": 351,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "death",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 39,
+                "y": 866,
+                "width": 282,
+                "height": 211
+              },
+              "partition": {
+                "x": 0,
+                "y": 841,
+                "width": 350,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 386,
+                "y": 930,
+                "width": 259,
+                "height": 145
+              },
+              "partition": {
+                "x": 350,
+                "y": 841,
+                "width": 351,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 703,
+                "y": 951,
+                "width": 315,
+                "height": 124
+              },
+              "partition": {
+                "x": 701,
+                "y": 841,
+                "width": 350,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1060,
+                "y": 983,
+                "width": 313,
+                "height": 91
+              },
+              "partition": {
+                "x": 1051,
+                "y": 841,
+                "width": 351,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "patrol_bot",
+      "file": "enemies/patrol_bot.png",
+      "rows": [
+        {
+          "name": "idle",
+          "fpsSuggestion": 8,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 40,
+                "y": 42,
+                "width": 257,
+                "height": 231
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 326,
+                "height": 301
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 354,
+                "y": 42,
+                "width": 256,
+                "height": 231
+              },
+              "partition": {
+                "x": 326,
+                "y": 0,
+                "width": 326,
+                "height": 301
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 682,
+                "y": 46,
+                "width": 259,
+                "height": 227
+              },
+              "partition": {
+                "x": 652,
+                "y": 0,
+                "width": 326,
+                "height": 301
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1007,
+                "y": 45,
+                "width": 258,
+                "height": 228
+              },
+              "partition": {
+                "x": 978,
+                "y": 0,
+                "width": 326,
+                "height": 301
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "walk",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 36,
+                "y": 335,
+                "width": 258,
+                "height": 241
+              },
+              "partition": {
+                "x": 0,
+                "y": 301,
+                "width": 326,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 353,
+                "y": 339,
+                "width": 252,
+                "height": 237
+              },
+              "partition": {
+                "x": 326,
+                "y": 301,
+                "width": 326,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 689,
+                "y": 337,
+                "width": 262,
+                "height": 241
+              },
+              "partition": {
+                "x": 652,
+                "y": 301,
+                "width": 326,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1002,
+                "y": 339,
+                "width": 256,
+                "height": 237
+              },
+              "partition": {
+                "x": 978,
+                "y": 301,
+                "width": 326,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "shoot",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 32,
+                "y": 638,
+                "width": 290,
+                "height": 231
+              },
+              "partition": {
+                "x": 0,
+                "y": 603,
+                "width": 326,
+                "height": 292
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 352,
+                "y": 636,
+                "width": 296,
+                "height": 233
+              },
+              "partition": {
+                "x": 326,
+                "y": 603,
+                "width": 326,
+                "height": 292
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 682,
+                "y": 636,
+                "width": 276,
+                "height": 233
+              },
+              "partition": {
+                "x": 652,
+                "y": 603,
+                "width": 326,
+                "height": 292
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1001,
+                "y": 636,
+                "width": 270,
+                "height": 233
+              },
+              "partition": {
+                "x": 978,
+                "y": 603,
+                "width": 326,
+                "height": 292
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "death",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 36,
+                "y": 906,
+                "width": 273,
+                "height": 260
+              },
+              "partition": {
+                "x": 0,
+                "y": 895,
+                "width": 326,
+                "height": 311
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 345,
+                "y": 896,
+                "width": 292,
+                "height": 270
+              },
+              "partition": {
+                "x": 326,
+                "y": 895,
+                "width": 326,
+                "height": 311
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 673,
+                "y": 915,
+                "width": 266,
+                "height": 251
+              },
+              "partition": {
+                "x": 652,
+                "y": 895,
+                "width": 299,
+                "height": 311
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 952,
+                "y": 959,
+                "width": 326,
+                "height": 212
+              },
+              "partition": {
+                "x": 951,
+                "y": 895,
+                "width": 353,
+                "height": 311
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "hover_drone",
+      "file": "enemies/hover_drone.png",
+      "rows": [
+        {
+          "name": "hover",
+          "fpsSuggestion": 8,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 41,
+                "y": 72,
+                "width": 239,
+                "height": 190
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 360,
+                "y": 73,
+                "width": 238,
+                "height": 189
+              },
+              "partition": {
+                "x": 318,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 675,
+                "y": 73,
+                "width": 241,
+                "height": 200
+              },
+              "partition": {
+                "x": 636,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 992,
+                "y": 73,
+                "width": 242,
+                "height": 192
+              },
+              "partition": {
+                "x": 954,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "move",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 50,
+                "y": 361,
+                "width": 242,
+                "height": 204
+              },
+              "partition": {
+                "x": 0,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 357,
+                "y": 382,
+                "width": 269,
+                "height": 190
+              },
+              "partition": {
+                "x": 318,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 691,
+                "y": 396,
+                "width": 242,
+                "height": 181
+              },
+              "partition": {
+                "x": 636,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 985,
+                "y": 371,
+                "width": 257,
+                "height": 197
+              },
+              "partition": {
+                "x": 954,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "shoot",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 21,
+                "y": 676,
+                "width": 289,
+                "height": 174
+              },
+              "partition": {
+                "x": 0,
+                "y": 618,
+                "width": 318,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 341,
+                "y": 676,
+                "width": 278,
+                "height": 175
+              },
+              "partition": {
+                "x": 318,
+                "y": 618,
+                "width": 318,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 659,
+                "y": 676,
+                "width": 279,
+                "height": 179
+              },
+              "partition": {
+                "x": 636,
+                "y": 618,
+                "width": 318,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 969,
+                "y": 676,
+                "width": 291,
+                "height": 173
+              },
+              "partition": {
+                "x": 954,
+                "y": 618,
+                "width": 318,
+                "height": 280
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "death",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 41,
+                "y": 901,
+                "width": 255,
+                "height": 274
+              },
+              "partition": {
+                "x": 0,
+                "y": 898,
+                "width": 318,
+                "height": 338
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 360,
+                "y": 900,
+                "width": 256,
+                "height": 293
+              },
+              "partition": {
+                "x": 318,
+                "y": 898,
+                "width": 318,
+                "height": 338
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 649,
+                "y": 899,
+                "width": 314,
+                "height": 297
+              },
+              "partition": {
+                "x": 636,
+                "y": 898,
+                "width": 327,
+                "height": 338
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1003,
+                "y": 899,
+                "width": 210,
+                "height": 306
+              },
+              "partition": {
+                "x": 963,
+                "y": 898,
+                "width": 309,
+                "height": 338
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "turret",
+      "file": "enemies/turret.png",
+      "rows": [
+        {
+          "name": "idle",
+          "fpsSuggestion": 8,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 31,
+                "y": 80,
+                "width": 274,
+                "height": 223
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 324,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 358,
+                "y": 80,
+                "width": 269,
+                "height": 223
+              },
+              "partition": {
+                "x": 324,
+                "y": 0,
+                "width": 324,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 670,
+                "y": 79,
+                "width": 282,
+                "height": 225
+              },
+              "partition": {
+                "x": 648,
+                "y": 0,
+                "width": 324,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 991,
+                "y": 80,
+                "width": 278,
+                "height": 223
+              },
+              "partition": {
+                "x": 972,
+                "y": 0,
+                "width": 324,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "charge",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 35,
+                "y": 363,
+                "width": 271,
+                "height": 227
+              },
+              "partition": {
+                "x": 0,
+                "y": 304,
+                "width": 324,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 360,
+                "y": 363,
+                "width": 270,
+                "height": 227
+              },
+              "partition": {
+                "x": 324,
+                "y": 304,
+                "width": 324,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 662,
+                "y": 363,
+                "width": 292,
+                "height": 227
+              },
+              "partition": {
+                "x": 648,
+                "y": 304,
+                "width": 324,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 983,
+                "y": 363,
+                "width": 289,
+                "height": 227
+              },
+              "partition": {
+                "x": 972,
+                "y": 304,
+                "width": 324,
+                "height": 302
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "shoot",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 15,
+                "y": 646,
+                "width": 292,
+                "height": 225
+              },
+              "partition": {
+                "x": 0,
+                "y": 606,
+                "width": 324,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 328,
+                "y": 646,
+                "width": 302,
+                "height": 226
+              },
+              "partition": {
+                "x": 324,
+                "y": 606,
+                "width": 323,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 648,
+                "y": 646,
+                "width": 308,
+                "height": 226
+              },
+              "partition": {
+                "x": 647,
+                "y": 606,
+                "width": 325,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 985,
+                "y": 646,
+                "width": 287,
+                "height": 226
+              },
+              "partition": {
+                "x": 972,
+                "y": 606,
+                "width": 324,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "death",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 27,
+                "y": 888,
+                "width": 299,
+                "height": 276
+              },
+              "partition": {
+                "x": 0,
+                "y": 887,
+                "width": 326,
+                "height": 326
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 349,
+                "y": 898,
+                "width": 301,
+                "height": 266
+              },
+              "partition": {
+                "x": 326,
+                "y": 887,
+                "width": 324,
+                "height": 326
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 669,
+                "y": 897,
+                "width": 301,
+                "height": 267
+              },
+              "partition": {
+                "x": 650,
+                "y": 887,
+                "width": 322,
+                "height": 326
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 989,
+                "y": 914,
+                "width": 288,
+                "height": 250
+              },
+              "partition": {
+                "x": 972,
+                "y": 887,
+                "width": 324,
+                "height": 326
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "siege_walker",
+      "file": "bosses/siege_walker.png",
+      "rows": [
+        {
+          "name": "idle",
+          "fpsSuggestion": 8,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 17,
+                "y": 19,
+                "width": 298,
+                "height": 267
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 324,
+                "height": 303
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 354,
+                "y": 19,
+                "width": 282,
+                "height": 267
+              },
+              "partition": {
+                "x": 324,
+                "y": 0,
+                "width": 323,
+                "height": 303
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 663,
+                "y": 25,
+                "width": 298,
+                "height": 261
+              },
+              "partition": {
+                "x": 647,
+                "y": 0,
+                "width": 324,
+                "height": 303
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 991,
+                "y": 24,
+                "width": 289,
+                "height": 262
+              },
+              "partition": {
+                "x": 971,
+                "y": 0,
+                "width": 324,
+                "height": 303
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "charge",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 17,
+                "y": 316,
+                "width": 309,
+                "height": 267
+              },
+              "partition": {
+                "x": 0,
+                "y": 303,
+                "width": 326,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 350,
+                "y": 311,
+                "width": 301,
+                "height": 272
+              },
+              "partition": {
+                "x": 326,
+                "y": 303,
+                "width": 325,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 671,
+                "y": 318,
+                "width": 292,
+                "height": 265
+              },
+              "partition": {
+                "x": 651,
+                "y": 303,
+                "width": 320,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 990,
+                "y": 315,
+                "width": 289,
+                "height": 268
+              },
+              "partition": {
+                "x": 971,
+                "y": 303,
+                "width": 324,
+                "height": 304
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "attack",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 12,
+                "y": 619,
+                "width": 315,
+                "height": 261
+              },
+              "partition": {
+                "x": 0,
+                "y": 607,
+                "width": 327,
+                "height": 293
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 341,
+                "y": 619,
+                "width": 306,
+                "height": 261
+              },
+              "partition": {
+                "x": 327,
+                "y": 607,
+                "width": 320,
+                "height": 293
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 657,
+                "y": 619,
+                "width": 308,
+                "height": 261
+              },
+              "partition": {
+                "x": 647,
+                "y": 607,
+                "width": 324,
+                "height": 293
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 996,
+                "y": 617,
+                "width": 286,
+                "height": 263
+              },
+              "partition": {
+                "x": 971,
+                "y": 607,
+                "width": 324,
+                "height": 293
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "death",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 17,
+                "y": 901,
+                "width": 286,
+                "height": 286
+              },
+              "partition": {
+                "x": 0,
+                "y": 900,
+                "width": 324,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 342,
+                "y": 908,
+                "width": 288,
+                "height": 279
+              },
+              "partition": {
+                "x": 324,
+                "y": 900,
+                "width": 323,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 652,
+                "y": 909,
+                "width": 307,
+                "height": 271
+              },
+              "partition": {
+                "x": 647,
+                "y": 900,
+                "width": 324,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 974,
+                "y": 945,
+                "width": 309,
+                "height": 237
+              },
+              "partition": {
+                "x": 971,
+                "y": 900,
+                "width": 324,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "foundry_tileset",
+      "file": "environment/foundry_tileset.png",
+      "rows": [
+        {
+          "name": "floor_platform",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 4,
+                "y": 62,
+                "width": 214,
+                "height": 149
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 222,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 225,
+                "y": 93,
+                "width": 216,
+                "height": 118
+              },
+              "partition": {
+                "x": 222,
+                "y": 0,
+                "width": 221,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 447,
+                "y": 93,
+                "width": 215,
+                "height": 118
+              },
+              "partition": {
+                "x": 443,
+                "y": 0,
+                "width": 222,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 668,
+                "y": 62,
+                "width": 216,
+                "height": 149
+              },
+              "partition": {
+                "x": 665,
+                "y": 0,
+                "width": 222,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 4,
+              "sourceRect": {
+                "x": 894,
+                "y": 93,
+                "width": 212,
+                "height": 106
+              },
+              "partition": {
+                "x": 887,
+                "y": 0,
+                "width": 222,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 5,
+              "sourceRect": {
+                "x": 1112,
+                "y": 93,
+                "width": 215,
+                "height": 99
+              },
+              "partition": {
+                "x": 1109,
+                "y": 0,
+                "width": 221,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 6,
+              "sourceRect": {
+                "x": 1334,
+                "y": 93,
+                "width": 213,
+                "height": 106
+              },
+              "partition": {
+                "x": 1330,
+                "y": 0,
+                "width": 222,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 7,
+              "sourceRect": {
+                "x": 1556,
+                "y": 90,
+                "width": 215,
+                "height": 87
+              },
+              "partition": {
+                "x": 1552,
+                "y": 0,
+                "width": 222,
+                "height": 222
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "wall_panels",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 4,
+                "y": 227,
+                "width": 214,
+                "height": 209
+              },
+              "partition": {
+                "x": 0,
+                "y": 222,
+                "width": 222,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 225,
+                "y": 227,
+                "width": 216,
+                "height": 209
+              },
+              "partition": {
+                "x": 222,
+                "y": 222,
+                "width": 221,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 447,
+                "y": 227,
+                "width": 215,
+                "height": 209
+              },
+              "partition": {
+                "x": 443,
+                "y": 222,
+                "width": 222,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 668,
+                "y": 227,
+                "width": 216,
+                "height": 209
+              },
+              "partition": {
+                "x": 665,
+                "y": 222,
+                "width": 222,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 4,
+              "sourceRect": {
+                "x": 888,
+                "y": 227,
+                "width": 218,
+                "height": 209
+              },
+              "partition": {
+                "x": 887,
+                "y": 222,
+                "width": 222,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 5,
+              "sourceRect": {
+                "x": 1112,
+                "y": 227,
+                "width": 215,
+                "height": 209
+              },
+              "partition": {
+                "x": 1109,
+                "y": 222,
+                "width": 221,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 6,
+              "sourceRect": {
+                "x": 1334,
+                "y": 227,
+                "width": 215,
+                "height": 209
+              },
+              "partition": {
+                "x": 1330,
+                "y": 222,
+                "width": 222,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 7,
+              "sourceRect": {
+                "x": 1556,
+                "y": 227,
+                "width": 214,
+                "height": 209
+              },
+              "partition": {
+                "x": 1552,
+                "y": 222,
+                "width": 222,
+                "height": 221
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "wall_edges",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 4,
+                "y": 447,
+                "width": 214,
+                "height": 194
+              },
+              "partition": {
+                "x": 0,
+                "y": 443,
+                "width": 222,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 225,
+                "y": 447,
+                "width": 216,
+                "height": 119
+              },
+              "partition": {
+                "x": 222,
+                "y": 443,
+                "width": 221,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 447,
+                "y": 447,
+                "width": 215,
+                "height": 194
+              },
+              "partition": {
+                "x": 443,
+                "y": 443,
+                "width": 222,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 669,
+                "y": 447,
+                "width": 215,
+                "height": 195
+              },
+              "partition": {
+                "x": 665,
+                "y": 443,
+                "width": 222,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 4,
+              "sourceRect": {
+                "x": 890,
+                "y": 447,
+                "width": 216,
+                "height": 194
+              },
+              "partition": {
+                "x": 887,
+                "y": 443,
+                "width": 222,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 5,
+              "sourceRect": {
+                "x": 1112,
+                "y": 447,
+                "width": 215,
+                "height": 194
+              },
+              "partition": {
+                "x": 1109,
+                "y": 443,
+                "width": 221,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 6,
+              "sourceRect": {
+                "x": 1334,
+                "y": 447,
+                "width": 215,
+                "height": 194
+              },
+              "partition": {
+                "x": 1330,
+                "y": 443,
+                "width": 222,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 7,
+              "sourceRect": {
+                "x": 1556,
+                "y": 447,
+                "width": 214,
+                "height": 194
+              },
+              "partition": {
+                "x": 1552,
+                "y": 443,
+                "width": 222,
+                "height": 203
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "structural",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 48,
+                "y": 647,
+                "width": 127,
+                "height": 218
+              },
+              "partition": {
+                "x": 0,
+                "y": 646,
+                "width": 222,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 225,
+                "y": 710,
+                "width": 216,
+                "height": 88
+              },
+              "partition": {
+                "x": 222,
+                "y": 646,
+                "width": 221,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 447,
+                "y": 650,
+                "width": 215,
+                "height": 214
+              },
+              "partition": {
+                "x": 443,
+                "y": 646,
+                "width": 222,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 669,
+                "y": 650,
+                "width": 215,
+                "height": 212
+              },
+              "partition": {
+                "x": 665,
+                "y": 646,
+                "width": 222,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 4,
+              "sourceRect": {
+                "x": 890,
+                "y": 650,
+                "width": 216,
+                "height": 212
+              },
+              "partition": {
+                "x": 887,
+                "y": 646,
+                "width": 222,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 5,
+              "sourceRect": {
+                "x": 1112,
+                "y": 650,
+                "width": 215,
+                "height": 212
+              },
+              "partition": {
+                "x": 1109,
+                "y": 646,
+                "width": 221,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 6,
+              "sourceRect": {
+                "x": 1334,
+                "y": 649,
+                "width": 215,
+                "height": 213
+              },
+              "partition": {
+                "x": 1330,
+                "y": 646,
+                "width": 222,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 7,
+              "sourceRect": {
+                "x": 1556,
+                "y": 650,
+                "width": 214,
+                "height": 212
+              },
+              "partition": {
+                "x": 1552,
+                "y": 646,
+                "width": 222,
+                "height": 241
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "foundry_props",
+      "file": "environment/foundry_props.png",
+      "rows": [
+        {
+          "name": "crates_barrel_beacon",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 64,
+                "y": 97,
+                "width": 214,
+                "height": 193
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 313,
+                "height": 313
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 354,
+                "y": 88,
+                "width": 256,
+                "height": 204
+              },
+              "partition": {
+                "x": 313,
+                "y": 0,
+                "width": 314,
+                "height": 313
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 713,
+                "y": 69,
+                "width": 149,
+                "height": 224
+              },
+              "partition": {
+                "x": 627,
+                "y": 0,
+                "width": 313,
+                "height": 313
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 1003,
+                "y": 101,
+                "width": 187,
+                "height": 191
+              },
+              "partition": {
+                "x": 940,
+                "y": 0,
+                "width": 314,
+                "height": 313
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "pipes_cables",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 110,
+                "y": 331,
+                "width": 118,
+                "height": 283
+              },
+              "partition": {
+                "x": 0,
+                "y": 313,
+                "width": 313,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 374,
+                "y": 374,
+                "width": 215,
+                "height": 230
+              },
+              "partition": {
+                "x": 313,
+                "y": 313,
+                "width": 314,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 661,
+                "y": 429,
+                "width": 248,
+                "height": 130
+              },
+              "partition": {
+                "x": 627,
+                "y": 313,
+                "width": 313,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 970,
+                "y": 346,
+                "width": 255,
+                "height": 268
+              },
+              "partition": {
+                "x": 940,
+                "y": 313,
+                "width": 314,
+                "height": 314
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "machines_lamp",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 48,
+                "y": 662,
+                "width": 256,
+                "height": 222
+              },
+              "partition": {
+                "x": 0,
+                "y": 627,
+                "width": 313,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 368,
+                "y": 652,
+                "width": 231,
+                "height": 228
+              },
+              "partition": {
+                "x": 313,
+                "y": 627,
+                "width": 314,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 661,
+                "y": 642,
+                "width": 235,
+                "height": 251
+              },
+              "partition": {
+                "x": 627,
+                "y": 627,
+                "width": 313,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 978,
+                "y": 633,
+                "width": 223,
+                "height": 265
+              },
+              "partition": {
+                "x": 940,
+                "y": 627,
+                "width": 314,
+                "height": 281
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "door_column_hook_wreck",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 44,
+                "y": 917,
+                "width": 291,
+                "height": 272
+              },
+              "partition": {
+                "x": 0,
+                "y": 908,
+                "width": 335,
+                "height": 346
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 394,
+                "y": 909,
+                "width": 174,
+                "height": 293
+              },
+              "partition": {
+                "x": 335,
+                "y": 908,
+                "width": 292,
+                "height": 346
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 669,
+                "y": 917,
+                "width": 230,
+                "height": 288
+              },
+              "partition": {
+                "x": 627,
+                "y": 908,
+                "width": 272,
+                "height": 346
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 899,
+                "y": 985,
+                "width": 326,
+                "height": 210
+              },
+              "partition": {
+                "x": 899,
+                "y": 908,
+                "width": 355,
+                "height": 346
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "combat_effects",
+      "file": "effects/combat_effects.png",
+      "rows": [
+        {
+          "name": "player_bullet",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 75,
+                "y": 99,
+                "width": 118,
+                "height": 58
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 313,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 360,
+                "y": 90,
+                "width": 163,
+                "height": 79
+              },
+              "partition": {
+                "x": 313,
+                "y": 0,
+                "width": 314,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 648,
+                "y": 90,
+                "width": 214,
+                "height": 79
+              },
+              "partition": {
+                "x": 627,
+                "y": 0,
+                "width": 313,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 972,
+                "y": 83,
+                "width": 234,
+                "height": 94
+              },
+              "partition": {
+                "x": 940,
+                "y": 0,
+                "width": 314,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "enemy_bullet",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 93,
+                "y": 286,
+                "width": 138,
+                "height": 62
+              },
+              "partition": {
+                "x": 0,
+                "y": 209,
+                "width": 313,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 375,
+                "y": 278,
+                "width": 184,
+                "height": 77
+              },
+              "partition": {
+                "x": 313,
+                "y": 209,
+                "width": 314,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 664,
+                "y": 271,
+                "width": 237,
+                "height": 89
+              },
+              "partition": {
+                "x": 627,
+                "y": 209,
+                "width": 313,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 972,
+                "y": 266,
+                "width": 255,
+                "height": 101
+              },
+              "partition": {
+                "x": 940,
+                "y": 209,
+                "width": 314,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "muzzle_flash",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 90,
+                "y": 456,
+                "width": 158,
+                "height": 129
+              },
+              "partition": {
+                "x": 0,
+                "y": 418,
+                "width": 313,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 368,
+                "y": 431,
+                "width": 217,
+                "height": 169
+              },
+              "partition": {
+                "x": 313,
+                "y": 418,
+                "width": 314,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 679,
+                "y": 435,
+                "width": 239,
+                "height": 165
+              },
+              "partition": {
+                "x": 627,
+                "y": 418,
+                "width": 313,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 993,
+                "y": 450,
+                "width": 208,
+                "height": 140
+              },
+              "partition": {
+                "x": 940,
+                "y": 418,
+                "width": 314,
+                "height": 209
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "impact",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 94,
+                "y": 680,
+                "width": 106,
+                "height": 115
+              },
+              "partition": {
+                "x": 0,
+                "y": 627,
+                "width": 313,
+                "height": 211
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 374,
+                "y": 643,
+                "width": 157,
+                "height": 180
+              },
+              "partition": {
+                "x": 313,
+                "y": 627,
+                "width": 314,
+                "height": 211
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 651,
+                "y": 629,
+                "width": 226,
+                "height": 209
+              },
+              "partition": {
+                "x": 627,
+                "y": 627,
+                "width": 313,
+                "height": 211
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 989,
+                "y": 651,
+                "width": 208,
+                "height": 166
+              },
+              "partition": {
+                "x": 940,
+                "y": 627,
+                "width": 314,
+                "height": 211
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "explosion",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 87,
+                "y": 901,
+                "width": 135,
+                "height": 133
+              },
+              "partition": {
+                "x": 0,
+                "y": 838,
+                "width": 313,
+                "height": 228
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 338,
+                "y": 871,
+                "width": 231,
+                "height": 184
+              },
+              "partition": {
+                "x": 313,
+                "y": 838,
+                "width": 314,
+                "height": 228
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 650,
+                "y": 871,
+                "width": 268,
+                "height": 195
+              },
+              "partition": {
+                "x": 627,
+                "y": 838,
+                "width": 313,
+                "height": 228
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 980,
+                "y": 876,
+                "width": 239,
+                "height": 173
+              },
+              "partition": {
+                "x": 940,
+                "y": 838,
+                "width": 314,
+                "height": 228
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "landing_dust",
+          "fpsSuggestion": 12,
+          "loopSuggestion": false,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 53,
+                "y": 1116,
+                "width": 187,
+                "height": 93
+              },
+              "partition": {
+                "x": 0,
+                "y": 1066,
+                "width": 313,
+                "height": 188
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 320,
+                "y": 1116,
+                "width": 284,
+                "height": 93
+              },
+              "partition": {
+                "x": 313,
+                "y": 1066,
+                "width": 314,
+                "height": 188
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 637,
+                "y": 1116,
+                "width": 311,
+                "height": 93
+              },
+              "partition": {
+                "x": 627,
+                "y": 1066,
+                "width": 321,
+                "height": 188
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 989,
+                "y": 1143,
+                "width": 239,
+                "height": 66
+              },
+              "partition": {
+                "x": 948,
+                "y": 1066,
+                "width": 306,
+                "height": 188
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "ui_controls",
+      "file": "ui/ui_controls.png",
+      "rows": [
+        {
+          "name": "movement",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 54,
+                "y": 65,
+                "width": 234,
+                "height": 231
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 356,
+                "y": 61,
+                "width": 237,
+                "height": 237
+              },
+              "partition": {
+                "x": 318,
+                "y": 0,
+                "width": 317,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 675,
+                "y": 61,
+                "width": 238,
+                "height": 237
+              },
+              "partition": {
+                "x": 635,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 987,
+                "y": 62,
+                "width": 237,
+                "height": 236
+              },
+              "partition": {
+                "x": 953,
+                "y": 0,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "menu",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 55,
+                "y": 351,
+                "width": 233,
+                "height": 240
+              },
+              "partition": {
+                "x": 0,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 357,
+                "y": 353,
+                "width": 237,
+                "height": 238
+              },
+              "partition": {
+                "x": 318,
+                "y": 309,
+                "width": 317,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 675,
+                "y": 353,
+                "width": 238,
+                "height": 238
+              },
+              "partition": {
+                "x": 635,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 983,
+                "y": 351,
+                "width": 241,
+                "height": 240
+              },
+              "partition": {
+                "x": 953,
+                "y": 309,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "hud",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 45,
+                "y": 652,
+                "width": 251,
+                "height": 226
+              },
+              "partition": {
+                "x": 0,
+                "y": 618,
+                "width": 318,
+                "height": 310
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 350,
+                "y": 652,
+                "width": 252,
+                "height": 230
+              },
+              "partition": {
+                "x": 318,
+                "y": 618,
+                "width": 317,
+                "height": 310
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 641,
+                "y": 704,
+                "width": 322,
+                "height": 159
+              },
+              "partition": {
+                "x": 635,
+                "y": 618,
+                "width": 328,
+                "height": 310
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 974,
+                "y": 636,
+                "width": 266,
+                "height": 254
+              },
+              "partition": {
+                "x": 963,
+                "y": 618,
+                "width": 308,
+                "height": 310
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "utility",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 49,
+                "y": 938,
+                "width": 233,
+                "height": 229
+              },
+              "partition": {
+                "x": 0,
+                "y": 928,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 359,
+                "y": 937,
+                "width": 232,
+                "height": 231
+              },
+              "partition": {
+                "x": 318,
+                "y": 928,
+                "width": 317,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 2,
+              "sourceRect": {
+                "x": 677,
+                "y": 938,
+                "width": 236,
+                "height": 231
+              },
+              "partition": {
+                "x": 635,
+                "y": 928,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 3,
+              "sourceRect": {
+                "x": 994,
+                "y": 938,
+                "width": 235,
+                "height": 231
+              },
+              "partition": {
+                "x": 953,
+                "y": 928,
+                "width": 318,
+                "height": 309
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    },
+    {
+      "id": "ui_panels",
+      "file": "ui/ui_panels.png",
+      "rows": [
+        {
+          "name": "dialogs",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 32,
+                "y": 136,
+                "width": 702,
+                "height": 293
+              },
+              "partition": {
+                "x": 0,
+                "y": 0,
+                "width": 768,
+                "height": 429
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 801,
+                "y": 135,
+                "width": 702,
+                "height": 294
+              },
+              "partition": {
+                "x": 768,
+                "y": 0,
+                "width": 768,
+                "height": 429
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "buttons",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 48,
+                "y": 429,
+                "width": 672,
+                "height": 273
+              },
+              "partition": {
+                "x": 0,
+                "y": 429,
+                "width": 768,
+                "height": 273
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 817,
+                "y": 429,
+                "width": 671,
+                "height": 272
+              },
+              "partition": {
+                "x": 768,
+                "y": 429,
+                "width": 768,
+                "height": 273
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        },
+        {
+          "name": "healthbar",
+          "fpsSuggestion": 12,
+          "loopSuggestion": true,
+          "frames": [
+            {
+              "index": 0,
+              "sourceRect": {
+                "x": 41,
+                "y": 762,
+                "width": 685,
+                "height": 104
+              },
+              "partition": {
+                "x": 0,
+                "y": 702,
+                "width": 768,
+                "height": 322
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            },
+            {
+              "index": 1,
+              "sourceRect": {
+                "x": 810,
+                "y": 762,
+                "width": 685,
+                "height": 104
+              },
+              "partition": {
+                "x": 768,
+                "y": 702,
+                "width": 768,
+                "height": 322
+              },
+              "anchorSuggestion": "bottomCenter",
+              "requiresVisualReview": true
+            }
+          ]
+        }
+      ],
+      "note": "Measured variable rectangles; do not assume a uniform SpriteAnimation.fromFrameData grid. Maintain one consistent render scale; pivots require visual review."
+    }
+  ]
+}

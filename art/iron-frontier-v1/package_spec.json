@@ -1,0 +1,167 @@
+{
+  "project": "IRON FRONTIER",
+  "generator": "built-in imagegen",
+  "assets": [
+    {
+      "id": "player_core",
+      "prompt": "Original IRON FRONTIER game asset. Premium crisp pixel art, strictly side-view 2D, clean pixel clusters, consistent character proportions and pixel scale, navy and blue-gray steel armor, bright cyan visor and energy rifle, restrained cyan highlights. Actual transparent background. No text, labels, borders, shadows on background, grid lines or watermark. Production sprite atlas with exactly 4 columns and 4 rows, 16 equal sized square cells. Each entire figure comfortably fits inside its own cell, same scale and foot baseline in all cells, large clean transparent margins separate cells. Never overlap adjacent cells. Facing RIGHT in all frames. Reference image is STYLE AND CHARACTER DESIGN reference only; do not reproduce its scenery or HUD. Main human operative animation sprite sheet. Row 1: four subtle idle breathing frames holding rifle. Row 2: four distinct running cycle frames with alternating legs. Row 3: jump takeoff, rising, apex, falling poses. Row 4: four standing shooting frames with tiny cyan muzzle flashes. Full body visible in every cell.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-adaed34c-63b8-4990-b436-7093c854a857.png",
+      "file": "characters/player_core.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "player_combat",
+      "prompt": "Original IRON FRONTIER game asset. Premium crisp pixel art, strictly side-view 2D, clean pixel clusters, consistent character proportions and pixel scale, navy and blue-gray steel armor, bright cyan visor and energy rifle, restrained cyan highlights. Actual transparent background. No text, labels, borders, shadows on background, grid lines or watermark. Production sprite atlas with exactly 4 columns and 4 rows, 16 equal sized square cells. Each entire figure comfortably fits inside its own cell, same scale and foot baseline in all cells, large clean transparent margins separate cells. Never overlap adjacent cells. Facing RIGHT in all frames. Reference image is STYLE AND CHARACTER DESIGN reference only; do not reproduce its scenery or HUD. SAME main human operative, supplemental animation sprite sheet. Row 1: four running while firing rifle cycle frames. Row 2: landing sequence from descending to crouched impact to recovery to standing. Row 3: damage reaction sequence slight recoil to strong recoil to recovering to standing. Row 4: death sequence stumbling, kneeling, collapsing, lying on floor. Maintain same body size in all frames.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-41909e10-bd36-47e5-93b8-4fddefb6b8ea.png",
+      "file": "characters/player_combat.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "patrol_bot",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER production game sprite atlas, crisp high-quality pixel art, side-on 2D mechanical sprites, blue-gray steel with red-orange enemy core and eye, same consistent pixel scale, navy shadows, hard readable outlines. Reference image is only for style/design. Transparent background, no scenery, no text, labels, grid lines, borders or watermark. Exactly 4 columns by 4 rows of equal square cells, one isolated full sprite per cell, centered with generous transparent margins, identical scale and baseline, no clipping or overlap. All enemies face LEFT toward player. Compact two-legged patrol robot with rectangular armored body, one orange eye, arm-mounted rifle, about human height. Row 1 four idle frames. Row 2 four walking cycle frames, alternating mechanical legs. Row 3 four shooting frames with compact orange muzzle flashes. Row 4 four destruction frames: damaged intact, spark burst, falling apart, wreckage. Keep same robot identity across frames.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-7ab14d94-c67f-4240-aa23-6acf4fb5751a.png",
+      "file": "enemies/patrol_bot.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "hover_drone",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER production game sprite atlas, crisp high-quality pixel art, side-on 2D mechanical sprites, blue-gray steel with red-orange enemy core and eye, same consistent pixel scale, navy shadows, hard readable outlines. Reference image is only for style/design. Transparent background, no scenery, no text, labels, grid lines, borders or watermark. Exactly 4 columns by 4 rows of equal square cells, one isolated full sprite per cell, centered with generous transparent margins, identical scale and baseline, no clipping or overlap. All enemies face LEFT toward player. Small hovering drone with single orange central eye, compact blue-gray armored chassis, two thrusters, short side guns. Row 1 four hovering frames. Row 2 four moving/tilting frames. Row 3 four shooting frames. Row 4 four destruction frames: damaged, cracking, explosion, falling wreckage. Drone orientation side-view and all entire sprites visible.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-0d753abe-d3de-49f3-9bcc-097ab802e0ee.png",
+      "file": "enemies/hover_drone.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "turret",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER production game sprite atlas, crisp high-quality pixel art, side-on 2D mechanical sprites, blue-gray steel with red-orange enemy core and eye, same consistent pixel scale, navy shadows, hard readable outlines. Reference image is only for style/design. Transparent background, no scenery, no text, labels, grid lines, borders or watermark. Exactly 4 columns by 4 rows of equal square cells, one isolated full sprite per cell, centered with generous transparent margins, identical scale and baseline, no clipping or overlap. All enemies face LEFT toward player. Fixed defense turret with sturdy square base, rotating armored head and horizontal cannon pointing LEFT, orange sensor and warning lights. Row 1 four idle frames. Row 2 four charge-up frames increasing orange cannon energy. Row 3 four firing frames with small orange muzzle flashes. Row 4 four destruction stages ending in ruined base. Maintain base at same baseline.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-50dc758e-8ae2-4b92-b53c-0e5546551e2a.png",
+      "file": "enemies/turret.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "siege_walker",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER production game sprite atlas, crisp high-quality pixel art, side-on 2D mechanical sprites, blue-gray steel with red-orange enemy core and eye, same consistent pixel scale, navy shadows, hard readable outlines. Reference image is only for style/design. Transparent background, no scenery, no text, labels, grid lines, borders or watermark. Exactly 4 columns by 4 rows of equal square cells, one isolated full sprite per cell, centered with generous transparent margins, identical scale and baseline, no clipping or overlap. All enemies face LEFT toward player. Large imposing Siege Walker boss, bulky central torso with bright round orange reactor core, two heavy mechanical legs, left-facing arm cannon, shoulder armor; matches reference boss. Row 1 four idle poses. Row 2 four charging attack poses core growing brighter. Row 3 four firing/recoil poses with compact muzzle flash contained in cell. Row 4 four destruction stages damaged, sparking, collapsing, wreckage. Use large cells and keep full body readable; same scale even wreckage.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-1a3157d6-cd54-4d8e-88f0-e6e0eaf7243e.png",
+      "file": "bosses/siege_walker.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_sky",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. FARTHEST sky layer: opaque navy night sky, subtle pixel clouds, small distant moon near upper left center, faint very distant industrial silhouettes along bottom fifth. Very low contrast. Horizontal cloud patterns with matching left and right edges.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-d4ba8a12-8c2c-4839-b45f-e634ed343418.png",
+      "file": "backgrounds/background_sky.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_landing",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. MIDGROUND AREA 1 Landing Zone: distant industrial landing docks, low warehouses, antenna masts, landing beacon towers, spaced silhouettes, mild cyan dock lights. Transparent sky above buildings and transparent gaps.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-4efdd920-29bf-4c20-b3af-d3d3ee5c3c63.png",
+      "file": "backgrounds/background_landing.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_warehouse",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. MIDGROUND AREA 2 Factory Approach: tall warehouse buildings, cargo loading doors, exterior stairs, overhead crane silhouettes, storage tanks, warm small windows. Transparent sky above structures and transparent gaps.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-becbd055-4023-4763-9a6a-804807a4460c.png",
+      "file": "backgrounds/background_warehouse.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_assembly",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. MIDGROUND AREA 3 Assembly Corridor: industrial machinery hall facade, exposed pipes, conveyor gantries, smokestacks, ventilation ducts, dense machinery shapes, orange work lights. Transparent negative space above and between structures.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-a543c88a-514d-49d0-bfe2-f586d9d1b74a.png",
+      "file": "backgrounds/background_assembly.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_reactor",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. MIDGROUND AREA 4 Reactor Gate: massive industrial reactor building with contained cyan energy columns and orange perimeter lights, armored gate, cooling towers, steam pipes. One central reactor landmark with lower generic machinery toward edges. Transparent sky and gaps.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-042c7bff-b49e-4abd-8cb2-7668b7669308.png",
+      "file": "backgrounds/background_reactor.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_arena",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. MIDGROUND AREA 5 Siege Arena: ominous fortified factory wall, heavy blast doors, armored support pylons, orange warning strips, damaged industrial structures, dramatic but dark. Transparent negative space above structures.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-7e87c1a0-6a8a-4bf6-a39b-c68167c7b5eb.png",
+      "file": "backgrounds/background_arena.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_near",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER side-scrolling 2D game background layer. Wide landscape composition. Premium crisp visible pixel art matching reference, dark navy #101722, desaturated blue-gray industrial steel #283747, sparse orange warning lights, subdued contrast for clear foreground gameplay. Orthographic SIDE VIEW, no perspective floor, no characters, no enemies, no weapons, no HUD, no text or watermark. Build architecture along lower 2/3 with upper 1/3 mostly empty. Background scenery only, not playable platforms. Reference only for artistic style. Left and right edge structures must be similar in height and compatible for horizontal joining; avoid unique landmarks at edges. NEAR parallax layer: isolated dark industrial structural silhouettes distributed along bottom quarter and lateral areas: thick pipe runs, steel support braces, a few cables, low machinery. Large empty transparent central and upper area so gameplay remains visible. No continuous solid background, no floor.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-77f5f816-0bfd-472b-8c9d-7a57fc218ec9.png",
+      "file": "backgrounds/background_near.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "sky_far",
+      "prompt": "Original pixel art game background, wide landscape. ONLY navy night sky and restrained blocky blue-gray clouds with ONE small pixel moon in upper left. Empty atmospheric sky layer, nothing else. Crisp deliberately chunky square pixels, limited 8 color palette, very low contrast, compatible left and right sky edges. No buildings, no skyline, no factory, no floor, no platforms, no foreground, no objects, no text, no HUD, no border. Opaque background. This is the far sky layer behind all architecture.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-66dd5a2d-b368-49d1-8cc4-fd62d8b82c43.png",
+      "file": "backgrounds/sky_far.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "foundry_tileset",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER game asset, crisp visible pixel art, square pixel clusters, limited dark navy/blue-gray steel palette with cyan player highlights and orange enemy/warning highlights. Flat side-view 2D suitable for side-scrolling game. Transparent background. No text, no labels, no borders, no watermark. Modular industrial terrain tiles atlas, exactly 8 columns and 4 rows, equal square cells, no padding. Every tile fills its cell, precisely axis aligned. Row 1: floor left cap, floor middle A, floor middle B, floor right cap, thin platform left, thin platform middle, thin platform right, grated platform middle. Row 2: solid steel wall tile, dark steel wall variant, riveted panel, vent panel, warning striped panel, pipe panel, support brace panel, dark recessed panel. Row 3: wall top left corner, wall top edge, wall top right corner, wall left edge, wall fill, wall right edge, wall bottom edge, wall bottom corner. Row 4: vertical support beam, horizontal support beam, beam crossing, steel grate, hazard floor, damaged floor, bolted machinery panel, dark fill. Tile edges should align for assembly. Restrained small texture details, no perspective. Entire atlas is terrain parts, not a scene.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-3d4015b1-f619-4fe6-9845-e002379bf3bd.png",
+      "file": "environment/foundry_tileset.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "foundry_props",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER game asset, crisp visible pixel art, square pixel clusters, limited dark navy/blue-gray steel palette with cyan player highlights and orange enemy/warning highlights. Flat side-view 2D suitable for side-scrolling game. Transparent background. No text, no labels, no borders, no watermark. Environment decoration atlas, exactly 4 columns and 4 rows of equal square cells, one centered isolated prop in each cell with generous margin. Row 1: cargo crate, reinforced crate, steel barrel, warning beacon. Row 2: vertical pipe segment, elbow pipe, horizontal pipe segment, hanging cable bundle. Row 3: small generator machine, ventilation fan unit, control terminal with cyan display, industrial lamp. Row 4: armored reactor door, steel support column, overhead crane hook, damaged machinery wreckage. Orthographic front/side view, no ground shadows, transparent holes. No object clipped.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-9022e944-c4fa-400b-b765-ae5d0467ca4f.png",
+      "file": "environment/foundry_props.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "combat_effects",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER game asset, crisp visible pixel art, square pixel clusters, limited dark navy/blue-gray steel palette with cyan player highlights and orange enemy/warning highlights. Flat side-view 2D suitable for side-scrolling game. Transparent background. No text, no labels, no borders, no watermark. Combat VFX animation atlas exactly 4 columns and 6 rows of equal square cells, transparent clean separation. Row 1 four small cyan player projectile pulse frames pointing right. Row 2 four small orange enemy projectile pulse frames pointing left. Row 3 four cyan muzzle flash sequence frames pointing right. Row 4 four small impact spark frames, neutral white-yellow sparks expanding and fading. Row 5 four orange explosion sequence frames: bright core, expanding burst, smoke burst, fading smoke. Row 6 four landing dust puff sequence frames expanding horizontally and fading. Effects entirely contained in their cell, no surrounding objects.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-c2f144c4-e76f-4fe4-9739-4f8e46d99a03.png",
+      "file": "effects/combat_effects.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ui_controls",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER game asset, crisp visible pixel art, square pixel clusters, limited dark navy/blue-gray steel palette with cyan player highlights and orange enemy/warning highlights. Flat side-view 2D suitable for side-scrolling game. Transparent background. No text, no labels, no borders, no watermark. Game UI atlas exactly 4 columns by 4 rows equal square cells, one isolated icon/button centered per cell with substantial margin, coherent steel borders and cyan highlights. Row 1: circular left arrow button, circular right arrow button, circular jump/up arrow button, circular shoot/crosshair button. Row 2: circular pause button, circular play triangle button, circular restart curved arrow button, circular settings cog button. Row 3: filled orange heart icon, empty steel heart icon, small cyan rifle icon, orange skull boss icon. Row 4: square confirm check button, square close X button, speaker sound-on icon, muted speaker icon. Icons only, no words, no gradients, no cast shadows.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-9df02d62-149a-46df-8158-a4b79c1688dc.png",
+      "file": "ui/ui_controls.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "ui_panels",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER game asset, crisp visible pixel art, square pixel clusters, limited dark navy/blue-gray steel palette with cyan player highlights and orange enemy/warning highlights. Flat side-view 2D suitable for side-scrolling game. Transparent background. No text, no labels, no borders, no watermark. Menu/HUD component sheet, neat two columns and three rows isolated components with generous transparent separation. Row 1: wide empty dark steel dialog panel with cyan corner accents; wide empty dark steel dialog panel with orange corner accents. Row 2: blank steel rectangular button cyan outline; blank steel rectangular button orange outline. Row 3: empty narrow steel healthbar frame; solid orange narrow healthbar fill strip. Components have blank interiors for Flutter-rendered text, no letters or numbers. Straight orthographic rectangular edges, no extra icons.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-68465b6e-4f87-493a-8f5f-dd9875792af9.png",
+      "file": "ui/ui_panels.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "logo",
+      "prompt": "Use case: stylized-concept. Original IRON FRONTIER game asset, crisp visible pixel art, square pixel clusters, limited dark navy/blue-gray steel palette with cyan player highlights and orange enemy/warning highlights. Flat side-view 2D suitable for side-scrolling game. Transparent background. No text, no labels, no borders, no watermark. Single centered game title logo. Exact text IRON FRONTIER in two stacked lines, bold legible original pixel/block typography, steel silver-blue letters, cyan small highlight along upper edges and restrained orange industrial stripe below. Wide composition with generous transparent margin, no additional slogan, no emblem, no scene.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-789b6655-0ea4-4a37-98fd-88fbb69e6282.png",
+      "file": "branding/logo.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_landing_cutout",
+      "prompt": "Edit this industrial pixel art background into a clean PARALLAX ARCHITECTURE CUTOUT. Remove ALL night sky, moon, background clouds, atmospheric haze and distant skyline visible between and above the industrial buildings. Make those areas genuinely transparent alpha, including gaps between support columns and gantries. Preserve the existing foreground industrial buildings, steel structures, machinery, pipes, warm lamps and bottom structural base exactly in their existing locations and pixel art style. Do not add anything. No labels or text. The result must be an isolated architecture silhouette layer with a large fully transparent upper region, NOT a complete landscape scene. Preserve image framing and dimensions.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-4e3b63e7-db1b-4e03-939b-4fb6e52ad850.png",
+      "file": "backgrounds/background_landing_cutout.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_assembly_cutout",
+      "prompt": "Edit this industrial pixel art background into a clean PARALLAX ARCHITECTURE CUTOUT. Remove ALL night sky, moon, background clouds, atmospheric haze and distant skyline visible between and above the industrial buildings. Make those areas genuinely transparent alpha, including gaps between support columns and gantries. Preserve the existing foreground industrial buildings, steel structures, machinery, pipes, warm lamps and bottom structural base exactly in their existing locations and pixel art style. Do not add anything. No labels or text. The result must be an isolated architecture silhouette layer with a large fully transparent upper region, NOT a complete landscape scene. Preserve image framing and dimensions.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-2011bb68-cb62-4b10-a5e8-5b1b8d8aec67.png",
+      "file": "backgrounds/background_assembly_cutout.png",
+      "status": "generated_draft"
+    },
+    {
+      "id": "background_arena_cutout",
+      "prompt": "Edit this industrial pixel art background into a clean PARALLAX ARCHITECTURE CUTOUT. Remove ALL night sky, moon, background clouds, atmospheric haze and distant skyline visible between and above the industrial buildings. Make those areas genuinely transparent alpha, including gaps between support columns and gantries. Preserve the existing foreground industrial buildings, steel structures, machinery, pipes, warm lamps and bottom structural base exactly in their existing locations and pixel art style. Do not add anything. No labels or text. The result must be an isolated architecture silhouette layer with a large fully transparent upper region, NOT a complete landscape scene. Preserve image framing and dimensions.",
+      "source": "/Users/raihansetiawan/.codex/generated_images/01a11720-277b-7aa0-a764-e304c14634ce/exec-b3876d96-99a9-4ec0-9c52-1fabdbde3b05.png",
+      "file": "backgrounds/background_arena_cutout.png",
+      "status": "generated_draft"
+    }
+  ]
+}
